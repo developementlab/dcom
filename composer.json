@@ -1,0 +1,29 @@
+{
+    "name": "pointdeb/dcom-db",
+    "description": "This is a Php Framework",
+    "type": "framework",
+    "version":"0.1.0",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "talesoft/tale-jade": "*",
+        "mustangostang/spyc":"*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pointDeb",
+            "email": "stephano.romain@gmail.com"
+        }
+    ],
+    "autoload":{
+      "psr-4":{
+          "app\\":"app",
+          "dcom\\":"dcom",
+          "src\\":"src"
+      }
+    }
+}
